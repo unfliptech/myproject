@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "redaxios";
 axios.defaults.withCredentials = true;
 export default defineNuxtPlugin((nuxtApp) => {
   const apiClient = axios.create({
